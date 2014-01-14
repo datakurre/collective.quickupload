@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: collective.quickupload\n"
 "POT-Creation-Date: 2013-06-17 06:38+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI +ZONE\n"
+"PO-Revision-Date: 2014-01-14 12:53+0200\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -30,7 +30,7 @@ msgstr "Useiden tiedostojen tuontilomake"
 
 #: ../profiles/default/portlets.xml
 msgid "Quick Upload Portlet"
-msgstr "Tuontityökalu -portlet"
+msgstr "Tuontityökalu -sovelma"
 
 #. Default: "Remove Plone Quick Upload"
 #: Uninstall Profile title in minimal.zcml
