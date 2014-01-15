@@ -142,9 +142,9 @@ Browser.onUploadComplete = function() {
 
 jQuery(document).ready( function () {
     // Disable the action link
-    uploadAction = jQuery("#contentview-upload")
-        .find("a")
-        .removeAttr("href");
-
-    jQuery("#contentview-upload").click(PloneQuickUpload.showUploaderViewlet);
+    jQuery("#contentview-upload a").removeAttr("href");
+    jQuery("a#plone-contentmenu-actions-upload").removeAttr("href");
+    // Enable quickupload
+    jQuery("#contentview-upload, a#plone-contentmenu-actions-upload")
+        .click(PloneQuickUpload.showUploaderViewlet);
 });
